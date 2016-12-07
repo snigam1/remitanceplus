@@ -1,0 +1,52 @@
+.tour {
+  background-color: #ffefd6;
+  text-align: center;
+  position: absolute;
+  z-index: 100;
+}
+.tour .slider {
+  height: 100%;
+  padding-top: 80px;
+}
+.tour img {
+  max-height: 70%;
+}
+.comments .button-block {
+  margin: 0;
+}
+.room-service ion-header-bar {
+  margin-top: 44px;
+}
+.room-service ion-content {
+  top: 88px;
+}
+.item.button-block {
+  margin-top: 0;
+  border-radius: 0;
+}
+
+
+.avatar {
+    border-radius: 95px;
+     height: 100px;
+      width: 100px;
+}
+
+ .custom-back{
+    color : white !important; 
+    background-color:#ef4e3a!important; 
+ }
+ 
+ .exchange-cell{
+   
+   font-size:12px !important;
+   font-size:12px !important;
+   font-weight: bold;
+ }
+ 
+ .item-select select
+{
+    right: auto;
+    padding: 13px 45px 15px 0px;
+    direction: ltr;
+}

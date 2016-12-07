@@ -1,0 +1,95 @@
+[
+  {
+    "id":"1",
+    "name" : "Mohamad Abdul Kalam",
+    "img" : "/img/abdul.jpg",
+    "Country" : "India",
+    "Bank" : "Sate Bank Of India",
+    "Branch" : "Darbhanga",
+    "Currency" : "INR",
+    "RelationShip" : "Friend",
+    "BranchCode" : "001",
+    "IFSCCode" : "xxxxx001",
+    "AccountNo": "00022200303003",
+    "TelephoneNo" : "+91349389999",
+    "Address" : "ABC, Street 53, District XXX, India"
+  },
+  
+  {
+    "id":"2",
+    "name" : "Nigam Sahoo",
+    "img" : "/img/nigam.jpg",
+    "Country" : "India",
+    "Bank" : "HDFC",
+    "Branch" : "Bhubaneswar",
+    "Currency" : "INR",
+    "RelationShip" : "Friend",
+    "BranchCode" : "001",
+    "IFSCCode" : "xxxxx001",
+    "AccountNo": "00022200303003",
+    "TelephoneNo" : "+91349389999",
+    "Address" : "ABC, Street 53, District XXX, India"  
+  },
+  {
+    "id":"3",
+    "name" : "Rahib Hussain",
+    "img" : "/img/rahib.jpg",
+    "Country" : "India",
+    "Bank" : "ICICI Bank",
+    "Branch" : "Madhubani",
+    "Currency" : "INR",
+    "RelationShip" : "Friend",
+    "BranchCode" : "001",
+    "IFSCCode" : "xxxxx001",
+    "AccountNo": "00022200303003",
+    "TelephoneNo" : "+91349389999",
+    "Address" : "ABC, Street 53, District XXX, India"
+  },
+  
+  {
+    "id":"4",
+    "name" : "Abdul Kalam",
+    "img" : "/img/abdul.jpg",
+    "Country" : "India",
+    "Bank" : "Sate Bank Of India",
+    "Branch" : "Darbhanga",
+    "Currency" : "INR",
+    "RelationShip" : "Friend",
+    "BranchCode" : "001",
+    "IFSCCode" : "xxxxx001",
+    "AccountNo": "00022200303003",
+    "TelephoneNo" : "+91349389999",
+    "Address" : "ABC, Street 53, District XXX, India"
+  },
+  
+  {
+    "id":"5",
+    "name" : "Nigam Sahoo",
+    "img" : "/img/nigam.jpg",
+    "Country" : "India",
+    "Bank" : "HDFC",
+    "Branch" : "Bhubaneswar",
+    "Currency" : "INR",
+    "RelationShip" : "Friend",
+    "BranchCode" : "001",
+    "IFSCCode" : "xxxxx001",
+    "AccountNo": "00022200303003",
+    "TelephoneNo" : "+91349389999",
+    "Address" : "ABC, Street 53, District XXX, India"
+  },
+  {
+    "id":"6",
+    "name" : "Rahib Hussain",
+    "img" : "/img/rahib.jpg",
+    "Country" : "India",
+    "Bank" : "ICICI Bank",
+    "Branch" : "Madhubani",
+    "Currency" : "INR",
+    "RelationShip" : "Friend",
+    "BranchCode" : "001",
+    "IFSCCode" : "xxxxx001",
+    "AccountNo": "00022200303003",
+    "TelephoneNo" : "+91349389999",
+    "Address" : "ABC, Street 53, District XXX, India"
+  }
+ ]

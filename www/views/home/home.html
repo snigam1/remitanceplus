@@ -1,0 +1,51 @@
+<ion-view title="Home">
+
+  <ion-content>
+    <div class="card">
+      <div class="item item-divider">
+        <image src="img/Almujaini-full.png">
+        </div>
+      <div class="item item-text-wrap">
+        Al Muzaini Exchange Co is the oldest and a pioneer in the Foreign Exchange business in Kuwait. For over seven decades Al Muzaini Exchange Co is known for its dedication towards its customer and its Top quality service. We aim to continue our commitment toward our customers what we believe is a “Tradition” 
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="item item-divider custom-back">Exchange Rates</div>
+      <div class="item" ng-if="!weather"><span class="icon ion-loading-d"></span></div>
+      <div class="item item-text-wrap">
+        <!--<p>Currently {{weather.main.temp}}&deg;F and {{weather.weather[0].description}}.</p>-->
+              
+        
+        <div class="row">
+            <div class="col exchange-cell">1(KWD) = 344.483(NPR)</div>
+            
+            <div class="col exchange-cell">1(KWD) = 3.235(CHF)</div>
+            
+          </div>
+          
+          <div class="row">
+            <div class="col exchange-cell">1 (KWD) = 3.288  (USD)</div>
+            <div class="col exchange-cell">1 (KWD) = 3.003  (EUR)</div>
+          </div>
+          
+          
+        
+      </div>
+      <a class="item button button-positive button-block" href="#/weather">See Forecast</a>
+    </div>
+
+    <div class="card">
+      <div class="item item-divider">Today's Events</div>
+      <div class="item" ng-if="!today"><span class="icon ion-loading-d"></span></div>
+      <div class="item" ng-repeat="item in today.events">{{item.event}}, {{item.time}}</div>
+      <a class="item button button-positive button-block" href="#/events">See all events</a>
+    </div>
+
+    <div class="card">
+      <div class="item item-icon-left" ng-click="openComments()">
+        <i class="icon ion-chatbubble"></i> Send us a comment
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

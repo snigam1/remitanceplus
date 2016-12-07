@@ -1,0 +1,65 @@
+<ion-view title="BENIFITIARY LIST">
+  <ion-content>
+   <ion-list>
+    
+      <ion-item ng-repeat="benifitiary in benifitiaryData">
+          
+              
+            
+             <!--<ion-thumbnail item-left>
+                <img src="{{benifitiary.img}}" class="avatar" >
+              </ion-thumbnail>
+              {{benifitiary.name}}
+              {{benifitiary.Bank}}
+              -->
+               
+               <!--<ion-avatar item-left>
+                  <img src="{{benifitiary.img}}" class="avatar" >
+                </ion-avatar>-->
+               
+               
+                <div class="list"> 
+                  <a class="item item-avatar" href="#/beneficiaryDetail/{{benifitiary.id}}">
+                     <img src="{{benifitiary.img}}">
+                      <h2> {{benifitiary.name}}</h2> 
+                      <p><span> {{benifitiary.Bank}}</span> -  <span> {{benifitiary.Country}}</span></p>
+                      <p>Branch - <span> {{benifitiary.Branch}}</span></p>
+                      <p>Currencty - <span> {{benifitiary.Currency}}</span> </p>
+                      
+                   </a>
+                </div>
+                
+                
+                
+  
+                      
+      </ion-item>
+      
+     <!-- <ion-item>
+          <div class="list card">
+              <div class="item">
+                <h2>nigam</h2>
+              </div>
+
+              <div class="item">
+                <h2>Sahoo</h2>
+              </div>
+            </div>
+      </ion-item>
+      
+      <ion-item>
+          <div class="list card">
+              <div class="item">
+                <h2>Abdul</h2>
+              </div>
+
+              <div class="item">
+                <h2>Kalam</h2>
+              </div>
+            </div>
+      </ion-item>
+      -->
+      
+   </ion-list>
+  </ion-content>
+</ion-view>

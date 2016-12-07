@@ -1,0 +1,15 @@
+[
+  {
+    "Symbol" : "KWD", 
+   "text": "Kuwaiti Dinar"
+  },
+  {
+    "Symbol" : "CHF", 
+   "text": "Swiss Franc"
+  },
+  {
+    "Symbol" : "CNY", 
+   "text": "Chinese Yuan Renminbi"
+  }
+
+]
