@@ -1,2 +1,3 @@
 # remitanceplus
-Sample remitance Application
+Sample remitance Application 
+Developed in  Ionic framework
